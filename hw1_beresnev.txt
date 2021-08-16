@@ -1,1 +1,2 @@
 Create new repository.
+install on ubuntu and windows on home workstation
