@@ -1,0 +1,4 @@
+1. Поставил Python 3.9.6
+2. Выбрал PyCharm (выбирал из Wing, Spyder, Atom и PyCharm. Последний показался более понятным.)
+3. Поставил Git.
+4. git@github.com:lackros/python.git
