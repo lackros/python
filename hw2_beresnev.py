@@ -1,10 +1,7 @@
- # Вариант №1 с использованием словаря
-w = input('введите строку: ')
-liist = dict(set(w.split()))
-print(liist)
+w = input('введите строку: ').split()
+w2 = []
+for i in range(len(w)):
+    if w[i] not in w2:
+        w2.append(w[i])
+print(*w2)
 
-# Вариант №2 с использованием списка и цикла
-w = input('введите строку: ')
-liist = list(set(w.split()))
-for i in range(len(liist)):
-    print(liist[i], end = ' ')
